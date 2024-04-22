@@ -1,8 +1,27 @@
-# React + Vite
+# Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##### Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
 
-Currently, two official plugins are available:
+#### Installation Guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##### using npm 
+```javascript
+     npm install axios
+```
+
+##### using yarn 
+```javascript
+     yarn add axios
+```
+
+##### using CDN 
+```javascript
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+```
+
+<a href="https://axios-http.com/docs/intro">Official Docs</a>
+
+
+
+
+
